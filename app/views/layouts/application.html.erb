@@ -18,16 +18,16 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Naturall</a>
+      <%= link_to 'Naturall', root_path, class: 'navbar-brand' %>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><%= link_to 'Add Wildlife Sighting', '#' %></li>
+        <li><%= link_to 'Add Wildlife Sighting', new_sighting_path %></li>
           </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><%= link_to 'About Project', '#' %></li>
+        <li><%= link_to 'About Project', about_path %></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
