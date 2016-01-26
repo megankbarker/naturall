@@ -1,5 +1,5 @@
 class SightingsController < ApplicationController
-	#def index
-	#	@sightings = sightings.all
-	#end
+	def index
+		# @sightings = Sighting.all
+	end
 end
