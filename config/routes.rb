@@ -1,6 +1,7 @@
-Rails.application.routes.draw do
-
+Naturall::Application.routes.draw do
   root 'sightings#index'
+
+  resources :sightings
   get 'about', to: 'sightings#about'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
