@@ -4,5 +4,6 @@ class SightingsController < ApplicationController
 	end
 
 	def new
+		@sighting = Sighting.new
 	end
 end

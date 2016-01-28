@@ -9,6 +9,10 @@ gem 'pg', '~> 0.15'
 gem 'sass-rails', '~> 5.0'
 # Use bootstrap for making it mobile friendly
 gem 'bootstrap-sass', '~>3.3.5.1'
+
+# Simple forms
+gem 'simple_form'
+
 #Use sprockets
 gem 'sprockets', '2.11.0'
 # Use Uglifier as compressor for JavaScript assets
